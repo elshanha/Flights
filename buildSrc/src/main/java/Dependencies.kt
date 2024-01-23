@@ -4,6 +4,11 @@ object Versions {
     const val materialComponents = "1.11.0"
     const val hilt = "2.46"
     const val navigation = "2.7.6"
+
+    const val retrofit = "2.9.0"
+    const val okhttpLogging = "4.10.0"
+    const val okhttp = "5.0.0-alpha.3"
+    const val gson = "2.10.1"
 }
 
 object Libs {
@@ -15,6 +20,14 @@ object Libs {
     object Hilt {
         const val hilt = "com.google.dagger:hilt-android:${Versions.hilt}"
         const val hiltKapt = "com.google.dagger:hilt-compiler:${Versions.hilt}"
+    }
+
+    object Api {
+        const val retrofit = "com.squareup.retrofit2:retrofit:${Versions.retrofit}"
+        const val retrofitGson = "com.squareup.retrofit2:converter-gson:${Versions.retrofit}"
+        const val okhttpLogging = "com.squareup.okhttp3:logging-interceptor:${Versions.okhttpLogging}"
+        const val okhttp = "com.squareup.okhttp3:okhttp:${Versions.okhttp}"
+        const val gson = "com.google.code.gson:gson:${Versions.gson}"
     }
 
     object Navigation {
