@@ -1,6 +1,6 @@
 package com.example.data.repo
 
-import ShowFlights
+import com.example.entities.model.ShowFlights
 import com.example.network.api.MyApi
 import javax.inject.Inject
 

@@ -40,7 +40,8 @@ android {
 
 dependencies {
     implementation(project(":entities"))
-    implementation(project(":data"))
+    implementation(project(":domain"))
+    implementation(project(":common"))
 
     implementation(Libs.Hilt.hilt)
     kapt(Libs.Hilt.hiltKapt)

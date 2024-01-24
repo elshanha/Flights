@@ -1,6 +1,6 @@
 package com.example.network.api
 
-import ShowFlights
+import com.example.entities.model.ShowFlights
 import retrofit2.http.GET
 
 interface MyApi {
